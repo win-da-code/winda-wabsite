@@ -1,0 +1,183 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Winda Kosherawati</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #493044;
+            background: linear-gradient(135deg, #fff0f6, #f3e8ff, #ffe4ec);
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            padding: 5px;
+            background: white;
+            border: 4px solid #d4a64a;
+            border-radius: 22px;
+            box-shadow: 0 5px 18px #c58bab55;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1 { color: #a83270; }
+
+        nav {
+            background: #a83270;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 3px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover, nav a.aktif {
+            background: #ffe0ec;
+            color: #8b245d;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .kartu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 30px;
+            background: #ffffffd9;
+            border: 2px solid #efb6d0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px #9d477022;
+        }
+
+        .bingkai {
+            width: 240px;
+            height: 290px;
+            padding: 7px;
+            border: 4px solid #d4a64a;
+            border-radius: 25px;
+            background: white;
+            box-shadow: 0 6px 20px #a8327040;
+        }
+
+        .bingkai img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 17px;
+        }
+
+        .teks {
+            flex: 1;
+            min-width: 240px;
+            line-height: 1.8;
+        }
+
+        .tombol {
+            display: inline-block;
+            padding: 12px 22px;
+            background: #a83270;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .tombol:hover { background: #792250; }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background: #792250;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 24px; }
+            .kartu { padding: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="https://pmb.undikma.ac.id/assets/logo-undikma.png"
+             alt="Logo UNDIKMA">
+    </div>
+    <h1>SELAMAT DATANG DI WEBSITE WINDA KOSHERAWATI</h1>
+    <p>Website Pribadi yang Anggun, Kreatif, dan Inspiratif</p>
+</header>
+
+<nav>
+    <a href="index.html" class="aktif">Home</a>
+    <a href="profil.html">Profil</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="foto.html">Foto</a>
+    <a href="puisi.html">Puisi</a>
+</nav>
+
+<main>
+    <section class="kartu">
+        <div class="bingkai">
+            <img src="gambar/Winda%20Kosherawati.jpeg"
+                 alt="Foto Winda Kosherawati">
+        </div>
+
+        <div class="teks">
+            <h2>Halo, Saya Winda Kosherawati! 🌷</h2>
+            <p>
+                Selamat datang di website pribadi saya.
+                Website ini berisi informasi tentang profil,
+                kegiatan, foto, dan karya puisi saya.
+            </p>
+            <p>
+                Saya percaya bahwa setiap pengalaman merupakan
+                kesempatan untuk belajar, berkembang, dan
+                menjadi pribadi yang lebih baik.
+            </p>
+            <a class="tombol" href="profil.html">Kenali Saya</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Winda Kosherawati</p>
+    <p>Belajar, Berkarya, dan Menginspirasi 🌸</p>
+</footer>
+
+</body>
+</html>
+```
