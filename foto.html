@@ -1,0 +1,228 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Galeri Foto - Winda Kosherawati</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #493044;
+            background: linear-gradient(
+                135deg,
+                #fff0f6,
+                #f3e8ff,
+                #ffe4ec
+            );
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            padding: 5px;
+            background: white;
+            border: 4px solid #d4a64a;
+            border-radius: 22px;
+            box-shadow: 0 5px 18px #c58bab55;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1, h2 {
+            color: #a83270;
+        }
+
+        nav {
+            background: #a83270;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 3px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a.aktif {
+            background: #ffe0ec;
+            color: #8b245d;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .kartu {
+            padding: 30px;
+            text-align: center;
+            background: #ffffffdf;
+            border: 2px solid #efb6d0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px #9d477022;
+        }
+
+        .galeri {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .bingkai {
+            width: 280px;
+            padding: 9px;
+            background: white;
+            border: 4px solid #d4a64a;
+            border-radius: 25px;
+            box-shadow: 0 8px 22px #a8327030;
+            transition: 0.3s;
+        }
+
+        .bingkai:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px #a8327045;
+        }
+
+        .bingkai img {
+            display: block;
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 17px;
+        }
+
+        .caption {
+            margin: 15px 0 8px;
+            color: #a83270;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .deskripsi {
+            line-height: 1.8;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background: #792250;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            main {
+                padding: 12px;
+            }
+
+            .kartu {
+                padding: 18px;
+            }
+
+            .bingkai {
+                width: 100%;
+                max-width: 280px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img
+            src="https://pmb.undikma.ac.id/assets/logo-undikma.png"
+            alt="Logo UNDIKMA"
+        >
+    </div>
+
+    <h1>GALERI FOTO WINDA KOSHERAWATI</h1>
+    <p>Setiap Foto Memiliki Cerita 🌷</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="profil.html">Profil</a>
+    <a href="kegiatan.html">Kegiatan</a>
+    <a href="foto.html" class="aktif">Foto</a>
+    <a href="puisi.html">Puisi</a>
+</nav>
+
+<main>
+    <section class="kartu">
+
+        <h2>🌸 Galeri Pribadi</h2>
+
+        <p class="deskripsi">
+            Selamat datang di galeri foto Winda Kosherawati.
+            Halaman ini menjadi tempat untuk menampilkan
+            foto dan menyimpan kenangan yang berharga.
+        </p>
+
+        <div class="galeri">
+
+            <div class="bingkai">
+                <img
+                    src="gambar/Winda%20Kosherawati.jpeg"
+                    alt="Foto Winda Kosherawati"
+                >
+
+                <p class="caption">Winda Kosherawati</p>
+
+                <p class="deskripsi">
+                    Tetap percaya diri, terus belajar,
+                    dan berani meraih impian.
+                </p>
+            </div>
+
+        </div>
+
+        <p class="deskripsi">
+            Kenangan sederhana dapat menjadi cerita
+            indah yang selalu menginspirasi. 💗
+        </p>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Winda Kosherawati</p>
+    <p>Kenangan Indah, Cerita Berharga 🌸</p>
+</footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,278 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puisi Perempuan - Winda Kosherawati</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px 15px;
+            font-family: Georgia, "Times New Roman", serif;
+            background: linear-gradient(135deg, #ffe4ef, #f0e4ff, #fff7fb);
+            color: #633b61;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.96);
+            border: 2px solid #edb6d2;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(135, 65, 120, 0.18);
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, #e9b5d0, #d9c4f5);
+            color: #582b58;
+        }
+
+        .logo {
+            width: 85px;
+            height: 85px;
+            object-fit: contain;
+            background: white;
+            border-radius: 50%;
+            padding: 8px;
+            border: 3px solid #fff0c2;
+        }
+
+        header h1 {
+            margin-bottom: 8px;
+            font-size: 32px;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 15px;
+            background: #fff4fa;
+            border-bottom: 1px solid #f0c8dd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #713d70;
+            background: white;
+            border: 1px solid #e8b8d5;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #b77bb5;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        main {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .foto-profil {
+            width: 145px;
+            height: 175px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 70px 70px 25px 25px;
+            border: 5px solid #e7bad6;
+            box-shadow: 0 5px 15px #e7c6e0;
+        }
+
+        .nama {
+            color: #a45a91;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin-top: 12px;
+        }
+
+        .judul-puisi {
+            margin-top: 30px;
+            color: #9c568c;
+            font-size: 29px;
+        }
+
+        .hiasan {
+            color: #d6a13f;
+            font-size: 25px;
+            letter-spacing: 8px;
+        }
+
+        .puisi {
+            max-width: 650px;
+            margin: 25px auto;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, #fff1f8, #f7efff);
+            border: 1px solid #edc5df;
+            border-radius: 22px;
+            line-height: 2;
+            font-size: 18px;
+            white-space: normal;
+            box-shadow: 0 5px 15px rgba(170, 100, 160, 0.1);
+        }
+
+        .puisi p {
+            margin: 0 0 22px;
+        }
+
+        .puisi p:last-child {
+            margin-bottom: 0;
+        }
+
+        .penutup {
+            color: #a45a91;
+            font-style: italic;
+            font-size: 17px;
+            margin-top: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f9e6f2;
+            color: #75466e;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 25px;
+            }
+
+            .puisi {
+                padding: 22px 14px;
+                font-size: 16px;
+            }
+
+            nav a {
+                padding: 8px 11px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <img
+            src="https://pmb.undikma.ac.id/assets/logo-undikma.png"
+            alt="Logo Universitas Pendidikan Mandalika"
+            class="logo"
+        >
+
+        <h1>Puisi Perempuan</h1>
+        <p>Keindahan Hati, Kekuatan Jiwa, dan Mimpi yang Tak Terbatas</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profil.html">Profil</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="foto.html">Galeri Foto</a>
+        <a href="puisi.html">Puisi</a>
+    </nav>
+
+    <main>
+
+        <img
+            src="gambar/Winda%20Kosherawati.jpeg"
+            alt="Foto Winda Kosherawati"
+            class="foto-profil"
+        >
+
+        <div class="nama">Karya: Winda Kosherawati</div>
+
+        <div class="hiasan">✿ ❀ ✿</div>
+
+        <h2 class="judul-puisi">Perempuan yang Tak Pernah Padam</h2>
+
+        <div class="puisi">
+
+            <p>
+                Ia adalah perempuan dengan sejuta cerita,<br>
+                menyimpan harapan di balik senyumnya,<br>
+                merangkai mimpi dalam diamnya,<br>
+                dan tetap bersinar meski dunia tak selalu ramah.
+            </p>
+
+            <p>
+                Langkahnya mungkin tak selalu mudah,<br>
+                jalannya kadang dipenuhi lelah,<br>
+                tetapi hatinya menyimpan kekuatan,<br>
+                yang tumbuh dari setiap perjuangan.
+            </p>
+
+            <p>
+                Ia bukan sekadar indah dipandang,<br>
+                bukan hanya lembut dalam tutur kata,<br>
+                ia punya pikiran, keberanian, dan tujuan,<br>
+                serta mimpi yang ingin diwujudkan.
+            </p>
+
+            <p>
+                Wahai perempuan, teruslah melangkah,<br>
+                jangan biarkan takut memadamkan cahaya,<br>
+                sebab setiap air mata mengajarkan keteguhan,<br>
+                dan setiap usaha mendekatkanmu pada harapan.
+            </p>
+
+            <p>
+                Jadilah bunga yang tetap mekar,<br>
+                meski hujan datang berkali-kali,<br>
+                jadilah cahaya di tengah gelap,<br>
+                dan tetaplah percaya pada diri sendiri.
+            </p>
+
+            <p>
+                Sebab perempuan bukan hanya tentang kecantikan,<br>
+                tetapi juga tentang keberanian dan ketulusan,<br>
+                tentang hati yang kuat menghadapi kehidupan,<br>
+                dan mimpi besar yang tak pernah kehilangan arah.
+            </p>
+
+        </div>
+
+        <div class="hiasan">♡ ✧ ♡</div>
+
+        <p class="penutup">
+            "Perempuan yang percaya pada dirinya sendiri
+            mampu menumbuhkan harapan, menghadapi tantangan,
+            dan menciptakan masa depan yang indah."
+        </p>
+
+    </main>
+
+    <footer>
+        &copy; 2026 Winda Kosherawati |
+        Website Pribadi |
+        Universitas Pendidikan Mandalika
+    </footer>
+
+</div>
+
+</body>
+</html>
+```

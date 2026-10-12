@@ -1,0 +1,229 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kegiatan - Winda Kosherawati</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #493044;
+            background: linear-gradient(
+                135deg,
+                #fff0f6,
+                #f3e8ff,
+                #ffe4ec
+            );
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 15px;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            padding: 5px;
+            background: white;
+            border: 4px solid #d4a64a;
+            border-radius: 22px;
+            box-shadow: 0 5px 18px #c58bab55;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        h1, h2 {
+            color: #a83270;
+        }
+
+        nav {
+            background: #a83270;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 3px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover,
+        nav a.aktif {
+            background: #ffe0ec;
+            color: #8b245d;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .kartu {
+            padding: 30px;
+            background: #ffffffdf;
+            border: 2px solid #efb6d0;
+            border-radius: 25px;
+            box-shadow: 0 8px 25px #9d477022;
+        }
+
+        .kegiatan {
+            padding: 20px;
+            margin: 18px 0;
+            background: #fff0f6;
+            border-left: 6px solid #c45a91;
+            border-radius: 12px;
+            line-height: 1.8;
+            transition: 0.3s;
+        }
+
+        .kegiatan:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px #a8327022;
+        }
+
+        .kegiatan h3 {
+            margin-top: 0;
+            color: #a83270;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background: #792250;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            main {
+                padding: 12px;
+            }
+
+            .kartu {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img
+            src="https://pmb.undikma.ac.id/assets/logo-undikma.png"
+            alt="Logo UNDIKMA"
+        >
+    </div>
+
+    <h1>KEGIATAN WINDA KOSHERAWATI</h1>
+    <p>Langkah Kecil, Impian Besar 🌷</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="profil.html">Profil</a>
+    <a href="kegiatan.html" class="aktif">Kegiatan</a>
+    <a href="foto.html">Foto</a>
+    <a href="puisi.html">Puisi</a>
+</nav>
+
+<main>
+    <section class="kartu">
+        <h2>🌸 Kegiatan Sehari-hari</h2>
+
+        <p>
+            Berikut adalah contoh kegiatan positif yang dapat
+            dilakukan untuk menambah pengetahuan, pengalaman,
+            dan keterampilan.
+        </p>
+
+        <div class="kegiatan">
+            <h3>📚 1. Belajar dan Membaca</h3>
+            <p>
+                Mempelajari materi perkuliahan, membaca buku,
+                dan mencari informasi baru untuk memperluas
+                wawasan serta meningkatkan pengetahuan.
+            </p>
+        </div>
+
+        <div class="kegiatan">
+            <h3>💻 2. Mempelajari Teknologi</h3>
+            <p>
+                Mengenal perkembangan teknologi informasi,
+                mempelajari pemrograman, dan mencoba berbagai
+                aplikasi yang dapat membantu proses belajar.
+            </p>
+        </div>
+
+        <div class="kegiatan">
+            <h3>📝 3. Mengerjakan Tugas Kuliah</h3>
+            <p>
+                Menyelesaikan tugas perkuliahan dengan teliti,
+                bertanggung jawab, serta berusaha mengumpulkan
+                tugas sesuai batas waktu.
+            </p>
+        </div>
+
+        <div class="kegiatan">
+            <h3>👭 4. Berdiskusi Bersama Teman</h3>
+            <p>
+                Bertukar pendapat, berdiskusi mengenai materi
+                perkuliahan, dan bekerja sama untuk menemukan
+                solusi dari suatu permasalahan.
+            </p>
+        </div>
+
+        <div class="kegiatan">
+            <h3>🌷 5. Mengembangkan Kreativitas</h3>
+            <p>
+                Mencoba hal-hal baru, mengembangkan ide kreatif,
+                dan melakukan kegiatan positif yang membantu
+                meningkatkan kemampuan diri.
+            </p>
+        </div>
+
+        <div class="kegiatan">
+            <h3>✨ 6. Merencanakan Masa Depan</h3>
+            <p>
+                Menetapkan tujuan, meningkatkan keterampilan,
+                dan mempersiapkan diri agar dapat meraih cita-cita
+                serta menjadi pribadi yang mandiri.
+            </p>
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Winda Kosherawati</p>
+    <p>Terus Belajar, Tumbuh, dan Berkarya 🌸</p>
+</footer>
+
+</body>
+</html>
+```
